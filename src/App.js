@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import Title from './Title';
+import Books from './mainPage/Books';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
         </nav>
       </header>
       <Title />
+      <Books />
     </div>
   );
 }
