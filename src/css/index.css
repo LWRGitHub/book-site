@@ -1,3 +1,5 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
+
 .App {
   text-align: center;
 }
@@ -34,3 +36,28 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+#me{
+  top: -15px;
+  left: -15px;
+}
+
+.jumbotron{
+  /* background-image: url("https://images.pexels.com/photos/1319854/pexels-photo-1319854.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+  background-image: url("https://images.pexels.com/photos/2765617/pexels-photo-2765617.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260"); */
+  display: flex;
+  align-items: center;
+  background-image: url("https://images.pexels.com/photos/2765617/pexels-photo-2765617.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260");
+  background-size: cover;
+  color: #ffffff;
+  height: 250px;
+}
+
+body {
+  font-family: Roboto, sans-serif;
+  background-image: url('https://s3.amazonaws.com/codecademy-content/courses/learn-css-selectors-visual-rules/hypnotize_bg.png');
+}
+
+/* hr{
+  border: 1px solid white;
+} */

@@ -9,6 +9,8 @@ import {
 import Header from './Header';
 import Books from './Books';
 import Home from './Home';
+import About from './About';
+import Footer from './Footer';
 
 const App = () => (
   <HashRouter>
@@ -16,11 +18,12 @@ const App = () => (
       <Header />
       <Switch>
         <Route exact path="/home" component={Home} />
-        {/* <Route path="/about" component={About} /> */}
+        <Route path="/about" component={About} />
         <Route path="/books" component={Books} />
         <Route component={Home} />
       </Switch>
     </div>
+    <Footer />
   </HashRouter>
 );
 
