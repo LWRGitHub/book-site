@@ -1,5 +1,5 @@
 import React from 'react';
-// import ReactDOM from 'react-dom';
+import { NavLink } from 'react-router-dom';
 
 const Books = () => (
     <div class="container mb-4">
@@ -10,28 +10,28 @@ const Books = () => (
             </div>
         </div>
         <div class="row">
-            <div class="col-4 text-center mb-2">
+            <div class="col-12 col-sm-4 text-center mb-2">
                 <div class="container px-3">
                     <h2 class="font-weight-bold">Books</h2>
                     <div class="row">
-                        <div class="rounded p-1 m-1 col-md">
+                        <div class="rounded p-1 col-3 col-sm-12 col-md-6">
                             <button className="btn btn-outline-secondary">finances</button>
                         </div>
-                        <div class="rounded p-1 m-1 col-md">
-                            <button className="btn btn-outline-secondary">Kinds</button>
+                        <div class="rounded p-1 col-3 col-sm-12 col-md-6">
+                            <button className="btn btn-outline-secondary">Kids</button>
                         </div>
-                    </div>
-                    <div class="row">
-                        <div class="rounded p-1 m-1 col-md">
+                        <div class="rounded p-1 col-3 col-sm-12 col-md-6">
                             <button className="btn btn-outline-secondary">Food</button>
                         </div>
-                        <div class="rounded p-1 m-1 col-md">
-                            <button className="btn btn-outline-secondary">Other</button>
+                        <div class="rounded p-1 col-3 col-sm-12 col-md-6">
+                            <button className="btn btn-outline-secondary">All</button>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="col-8">.col-md-8</div>
+            <div class="col-12 col-sm-8 text-center">
+            <NavLink to="/all"><img className='img-fluid' src='images/books.png' /></NavLink>
+            </div>
         </div>
     </div>
 );
