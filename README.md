@@ -40,3 +40,14 @@ npm run deploy
 git commit -a -m "Some New Code"
 git push
 ```
+
+## IMG
+
+***Home***
+
+<img src="https://raw.githubusercontent.com/LWRGitHub/book-site/master/public/images/home-pg.png" alt="this is a screen shot of the home page for The Midnight Dream Publishing site.">
+
+
+***About***
+
+<img src="https://raw.githubusercontent.com/LWRGitHub/book-site/master/public/images/about-pg.png" alt="this is a screen shot of the About page for Midnight Dream Publishing site.">

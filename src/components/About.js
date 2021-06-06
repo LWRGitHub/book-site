@@ -5,7 +5,7 @@ const About = () => (
         <div class="row">
             <div class="col col-md-7 p-1">
                 <div class='p-5 bg-light rounded'>
-                    <a href="https://www.amazon.com/Logan-Reynolds/e/B089CBVN5F" target="_blank"><img id="me" className='position-absolute rounded-circle'  src={process.env.PUBLIC_URL + '/images/Logan_Reynolds.jpg'}/></a>
+                    <a href="https://www.amazon.com/Logan-Reynolds/e/B089CBVN5F" target="_blank"><img width="80px" height="75px" id="me" className='position-absolute rounded-circle'  src={process.env.PUBLIC_URL + '/images/self.jpeg'}/></a>
                     <p>Hello,</p>
                     <p>My name is Logan, I was born and raised in the San Francisco Bay area. I have always been interested in life as a writer, although my first published book was not until 2018, I was writing books many years prior. As a young new author, I found it very difficult to get my books published by a publishing company.</p>
                     <p>I remember a time when I was trying to find a publisher's address but found out it was a PO box in the UPS store. I was trying to publish a vegan cookbook and later when I found the address the publisher was insisting that she did not think anybody would publish the book but I could pay her a "TON" of money to try. Unfortunately I never actually was able to publish that book.</p>
